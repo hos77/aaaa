@@ -1,0 +1,42 @@
+
+ul{
+  display: flex;
+}
+
+li{
+  padding: 20px;
+  text-align: center;
+
+}
+   li:hover
+{
+  background-color: grey;
+}
+.bg-primary{
+  background-color: #811538 !important;
+}
+#header-backround{
+  background-image: url("src\assets\pattern.png");
+}
+#header{
+
+  border-bottom: solid 20px #5b0d25;
+}
+#logo-header{
+  position: absolute;
+  z-index: 999;
+  left:100px;
+  top:15px;
+
+}
+#logo-img{
+  height: 200px;
+  -webkit-filter:drop-shadow(5px 5px 30px #222);
+  filter:drop-shadow(5px 5px 30px #222);
+}
+nav{
+  background-color: #5b0d25;
+}
+
+
+

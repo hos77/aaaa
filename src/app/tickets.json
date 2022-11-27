@@ -1,0 +1,33 @@
+{ "tickets":[
+  {"date":"dimanche 27 novembre 2022","heure" :"11:00", "match":"Japan vs CostaRica",
+  "evenement":"Ahmad Bin Ali Stadium , Al Rayyan , Qatar FIFA World Cup","capacite":40000},
+  {"date":"dimanche 27 novembre 2022","heure" :"14:00", "match":"Maroc vs Belgique",
+  "evenement":"Al-Thumama Stadium , Doha , Qatar FIFA World Cup","capacite":40000 ,
+  "stade":"Al-Thumama Stadium"},
+  {"date":"dimanche 27 novembre 2022","heure" :"17:00", "match":"Croatia vs Canada",
+  "evenement":"Khalifa International Stadium , Doha , Qatar FIFA World Cup","capacite":40000
+,"stade":"Khalifa International Stadium"},
+  {"date":"dimanche 27 novembre 2022","heure" :"20:00", "match":"Spain  vs Germany",
+  "evenement":"Al-Bayt Stadium , Al khor , Qatar FIFA World Cup","capacite":60000,
+  "stade":"Al-Bayt Stadium"
+
+},
+  {"date":"dimanche 28 novembre 2022","heure" :"11:00", "match":"Cameroon vs Serbia",
+  "evenement":"Al-Janoub Stadium , Al Wakair , Qatar FIFA World Cup","capacite":40000,
+  "stade":"Al-Janoub Stadium"
+},
+{"date":"dimanche 28 novembre 2022","heure" :"14:00", "match":"SouthKoria vs ghana",
+  "evenement":"Al-Janoub Stadium , Al Wakair , Qatar FIFA World Cup","capacite":40000,
+  "stade":"Al-Janoub Stadium"
+},
+{"date":"dimanche 28 novembre 2022","heure" :"17:00", "match":"Brazil vs Switzeland",
+  "evenement":"Stadium 974, Doha, Qatar FIFA World Cup","capacite":40000,
+  "stade":"Education City Stadium"
+},
+{"date":"dimanche 28 novembre 2022","heure" :"11:00", "match":"Portugal vs Uruguay",
+  "evenement":"Lusail Stadium, Lusail, Qatar FIFA World Cup","capacite":80000,
+  "stade":"Lusail Stadium"
+}
+
+  ]
+  }

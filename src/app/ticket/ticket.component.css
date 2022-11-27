@@ -1,0 +1,68 @@
+.ti{
+  margin-top: 50px;
+  padding-top: 15px;
+  border-top: 1px solid gold;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.st{
+  display: flex;
+  flex-direction: column;
+}
+.chercher{
+  margin: 20px;
+  color: gray;
+
+}
+
+
+.search-hero {
+  max-width: 500px;
+  padding-bottom: 50px;
+  margin:auto;
+}
+
+.form-control {
+  box-shadow: 0 10px 40px 0 #B0C1D9;
+}
+.form-control::placeholder  {
+  font-family: FontAwesome;
+}
+
+
+
+
+
+
+
+
+
+
+.date{
+  color:red
+}
+.heure{
+  color:gray;
+}
+.evenement
+{
+  color: #009F27;
+}
+.match {
+  color: #19D8CF;
+}
+.reservation{
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+td,td,th,table{
+  padding:20px ;
+  text-align: center;
+  margin: 20px;
+
+}

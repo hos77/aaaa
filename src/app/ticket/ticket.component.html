@@ -1,0 +1,45 @@
+<div class="container st">
+<h1 class="chercher">chercher par stade </h1>
+<div class=" container">
+  <div class="search-hero">
+    <form action="">
+    <input class="form-control search" type="text" name="search" [(ngModel)]="searchText" autocomplete="off"
+     placeholder="&#61442;  Start searching for">
+    </form>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+<div   class="container ti">
+
+
+
+
+
+
+
+  <div  *ngFor="let ticket of lesticket | filter:searchText; index as i" class="container tic" >
+  <table class="table ">
+    <tbody>
+      <tr>
+        <th scope="row"> <p class="date "> {{ticket.date}} </p> <br>
+          <p class="heure">
+           {{ticket.heure}} </p></th>
+        <td>  <p class="match"> {{ticket.match}} </p> <br> <p class="evenement">
+           {{ticket.evenement}}</p>
+           <br> <p class="capacite"> capacité du stade : <span> {{ticket.capacite}} </span>
+          </p> <br>
+        </td>
+        <td><button class="btn btn-primary reservation">reservez votre billet</button></td>
+      </tr>
+        </tbody>
+        </table>
+      </div>
+      </div>
+
