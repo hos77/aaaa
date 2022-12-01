@@ -12,12 +12,14 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './navbar/nav/nav.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PageticketComponent } from './pageTicket/pageticket/pageticket.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    TicketComponent
+    TicketComponent,
+    PageticketComponent
   ],
   imports: [
     BrowserModule,
