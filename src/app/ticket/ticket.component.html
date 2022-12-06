@@ -1,45 +1,35 @@
 <div class="container st">
-<h1 class="chercher">chercher par stade </h1>
-<div class=" container">
-  <div class="search-hero">
-    <form action="">
-    <input class="form-control search" type="text" name="search" [(ngModel)]="searchText" autocomplete="off"
-     placeholder="&#61442;  Start searching for">
-    </form>
-  </div>
-  </div>
-  </div>
+  <div class=" container">
+    <div class="search-hero">
+      <br>
+      <form action="">
+      <input class="form-control search" type="text" name="search" [(ngModel)]="searchText" autocomplete="off"
+       placeholder="&#61442;  Start searching for">
+      </form>
+    </div>
+    </div>
+    </div>
+  <div   class="container ti">
+    <div  *ngFor="let ticket of lesticket | filter:searchText; index as i" class="container tic" >
+      <div class="box">
+      <div class="row">
+      <div class="col-md-5 col-sm-12">
+      <img src="{{ticket.image}}" alt="sas">
+      </div>
+      <div class="col-md-7 col-sm-12">
+      <div class="info">
+      <ul class="list-unstyled">
+      <li><strong>Date:</strong> <p>{{ticket.date |date}} </p></li>
+      <li><strong>Heure:</strong> <p>{{ticket.heure}} </p></li>
+      <li><strong>Match:</strong> <p>{{ticket.match}} </p></li>
+      <li><strong>Evenement : </strong> <p>{{ticket.evenement}} </p></li>
+      <li><strong>Capacité:</strong> <p>{{ticket.capacite}} </p></li>
 
-
-
-
-
-
-
-<div   class="container ti">
-
-
-
-
-
-
-
-  <div  *ngFor="let ticket of lesticket | filter:searchText; index as i" class="container tic" >
-  <table class="table ">
-    <tbody>
-      <tr>
-        <th scope="row"> <p class="date "> {{ticket.date}} </p> <br>
-          <p class="heure">
-           {{ticket.heure}} </p></th>
-        <td>  <p class="match"> {{ticket.match}} </p> <br> <p class="evenement">
-           {{ticket.evenement}}</p>
-           <br> <p class="capacite"> capacité du stade : <span> {{ticket.capacite}} </span>
-          </p> <br>
-        </td>
-        <td><button class="btn btn-primary reservation">reservez votre billet</button></td>
-      </tr>
-        </tbody>
-        </table>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
       </div>
       </div>
 

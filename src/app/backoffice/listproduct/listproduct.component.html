@@ -1,0 +1,108 @@
+
+
+
+
+
+<div class="container">
+  <form [formGroup]="form">
+    <button (click)="onh()" class="btn btn-primary btn-block mb-4"> add product</button>
+    <div [hidden]="val">
+    <div class="row mb-4" >
+      <div class="col">
+        <div class="form-outline">
+          <input type="number"  class="form-control" placeholder="Enter identifiant "
+           formControlName="id" />
+          <label class="form-label" >identifiant </label>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text"  class="form-control" placeholder="Enter match "
+       formControlName="description"  />
+      <label class="form-label" >match </label>
+    </div>
+    <div class="form-outline mb-4">
+      <input type="text"  class="form-control"  formControlName="stade" />
+      <label class="form-label" >stade</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="number"  class="form-control" formControlName="prix"  />
+      <label class="form-label" >prix</label>
+    </div>
+
+
+
+
+    <div class="form-outline mb-4">
+      <input type="date"  class="form-control" formControlName="date"/>
+      <label class="form-label" for="form6Example6">date</label>
+    </div>
+    <div class="form-outline mb-4">
+      <input type="text"  class="form-control" formControlName="image"/>
+      <label class="form-label" for="form6Example6">image</label>
+    </div>
+
+
+    <button type="button" (click)="addProduit()"  [disabled]= "!form.valid"  class="btn btn-primary btn-block mb-4">
+      add </button>
+      <button type="button" (click)="update()"  [disabled]= "!form.valid"  class="btn btn-primary btn-block mb-4">
+        update </button>
+
+    </div>
+
+  </form>
+
+
+</div>
+<div class="wrap container">
+  <div class="search">
+    <input
+    type="text"
+    [(ngModel)]= "term"
+    class="searchTerm"
+    placeholder="What are you looking for?"
+  />
+  </div>
+
+
+
+
+<div   class="container ti">
+  <div  *ngFor="let ticket of listP | filter: term ; index as i" class="container tic" >
+  <table class="table ">
+    <div *ngIf=""></div>
+    <tbody>
+      <tr>
+        <th scope="row"> <p class="date "> {{ticket.date |date}} </p> <br>
+          <p class="heure">
+           identifiant : {{ticket.id}} </p> <p> match :{{ticket.description}}</p></th>
+        <td>  <p class="match">stade:  {{ticket.stade}} </p> <br> <p class="evenement">
+            prix : {{ticket.prix}} DT</p>
+           <br>
+          <br>
+        </td>
+        <td> <form action="">
+
+        <button class="btn btn-primary reservation" (click)="deleteP(ticket.id)">delete </button>
+        <br> <br> <br>
+        <button class="btn btn-primary reservation" (click)="modifyP(ticket.id)">modify </button>
+
+
+      </form>
+
+
+
+
+
+      </td>
+
+
+
+      </tr>
+        </tbody>
+        </table>
+      </div>
+      </div>

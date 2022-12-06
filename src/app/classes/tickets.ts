@@ -7,5 +7,6 @@ export class Tickets {
     public evenement :string,
     public capacite :number,
     public stade :string,
+    public image :string,
 ) {    }
 }

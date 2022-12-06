@@ -18,15 +18,13 @@ li{
 #header-backround{
   background-image: url("src\assets\pattern.png");
 }
-#header{
 
-  border-bottom: solid 20px #5b0d25;
-}
 #logo-header{
   position: absolute;
   z-index: 999;
   left:100px;
   top:15px;
+
 
 }
 #logo-img{
@@ -34,9 +32,36 @@ li{
   -webkit-filter:drop-shadow(5px 5px 30px #222);
   filter:drop-shadow(5px 5px 30px #222);
 }
-nav{
-  background-color: #5b0d25;
-}
 
+
+
+
+nav{
+  background:  #5b0d25;
+  color: #FFF;
+  height:65px;
+}
+  .content{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px 0;
+  }
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 0;
+}
+a{
+  cursor: pointer;
+  font-size: 22px;
+  color: #FFF;
+  text-decoration: none;
+}
+.lienActive{
+  font-weight: bold;
+}
 
 

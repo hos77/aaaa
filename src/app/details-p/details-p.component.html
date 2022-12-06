@@ -1,0 +1,49 @@
+
+<!--<div   class="container di " *ngFor="let i of ticketsd">
+  <div   class="container di  "  *ngIf="i.id ==id" >
+
+
+    <img src="{{i.image}}" alt="sas">
+
+
+    <ul class="list-unstyled">
+    <li><strong>Date:</strong> <p>{{i.date |date}} </p></li>
+
+    <li><strong>stade:</strong> <p>{{i.stade}} </p></li>
+    <li><strong>Evenement : </strong> <p>{{i.description}} </p></li>
+    <li><strong>Capacité:</strong> 40000 </li>
+
+    </ul>
+    </div></div>-->
+    <section style="background-color: #eee;">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 col-xl-4" *ngFor="let i of ticketsd">
+            <div class="card text-black" *ngIf="i.id ==id">
+              <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
+              <img src="{{i.image}}"
+                class="card-img-top" alt="Apple Computer" />
+              <div class="card-body">
+                <div class="text-center">
+                  <h5 class="card-title">{{i.date |date}}</h5>
+                  <p class="text-muted mb-4"> <strong> stade : </strong>{{i.stade}}</p>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <p> <strong> evenement </strong> {{i.description}}</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span> <strong>capacite : </strong>40000</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+

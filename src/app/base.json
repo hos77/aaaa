@@ -1,0 +1,235 @@
+{
+  "tickets": [
+    {
+      "date": "dimanche 27 novembre 2022",
+      "heure": "11:00",
+      "match": "argentine vs australia",
+      "evenement": "Ahmad Bin Ali Stadium , Al Rayyan , Qatar FIFA World Cup",
+      "capacite": 40000,
+      "image": "assets/arg-aust.png"
+    },
+    {
+      "date": "dimanche 27 novembre 2022",
+      "heure": "14:00",
+      "match": "canada  vs maroc",
+      "evenement": "Al-Thumama Stadium , Doha , Qatar FIFA World Cup",
+      "capacite": 40000,
+      "stade": "Al-Thumama Stadium",
+      "image": "assets/canada-morocco.png"
+    },
+    {
+      "date": "dimanche 27 novembre 2022",
+      "heure": "17:00",
+      "match": "Spain  vs Germany",
+      "evenement": "Khalifa International Stadium , Doha , Qatar FIFA World Cup",
+      "capacite": 40000,
+      "stade": "Khalifa International Stadium",
+      "image": "assets/spain-ger.jpg.png"
+    },
+    {
+      "date": "dimanche 27 novembre 2022",
+      "heure": "20:00",
+      "match": "Spain  vs Germany",
+      "evenement": "Al-Bayt Stadium , Al khor , Qatar FIFA World Cup",
+      "capacite": 60000,
+      "stade": "Al-Bayt Stadium",
+      "image": "assets/spain-ger.jpg.png"
+    },
+    {
+      "date": "dimanche 28 novembre 2022",
+      "heure": "11:00",
+      "match": "uruguay vs ghana",
+      "evenement": "Al-Janoub Stadium , Al Wakair , Qatar FIFA World Cup",
+      "capacite": 40000,
+      "stade": "Al-Janoub Stadium",
+      "image": "assets/Ghana-urugua.png"
+    },
+    {
+      "date": "dimanche 28 novembre 2022",
+      "heure": "14:00",
+      "match": "SouthKoria vs ghana",
+      "evenement": "Al-Janoub Stadium , Al Wakair , Qatar FIFA World Cup",
+      "capacite": 40000,
+      "stade": "Al-Janoub Stadium",
+      "image": "assets/spain-ger.jpg.png"
+    },
+    {
+      "date": "dimanche 28 novembre 2022",
+      "heure": "17:00",
+      "match": "Brazil vs Switzeland",
+      "evenement": "Stadium 974, Doha, Qatar FIFA World Cup",
+      "capacite": 40000,
+      "stade": "Education City Stadium",
+      "image": "assets/brasil-switzer.png"
+    },
+    {
+      "date": "dimanche 28 novembre 2022",
+      "heure": "11:00",
+      "match": "mexique vs saudiaArabia",
+      "evenement": "Lusail Stadium, Lusail, Qatar FIFA World Cup",
+      "capacite": 80000,
+      "stade": "Lusail Stadium",
+      "image": "assets/saud-mexico.png"
+    }
+  ],
+  "pageTicket": [
+    {
+      "id": 1000,
+      "description": "Japan vs CostaRica - Football World Cup - Qatar 2022",
+      "stade": "Al Bayt Stadium, Al Khor, Qatar",
+      "prix": 100,
+      "date": "2022-12-15",
+      "image": "assets/AlBayt.jpg"
+    },
+    {
+      "id": 1001,
+      "description": "Maroc vs Belgique - Football World Cup - Qatar 2022",
+      "stade": "Al-Thumama Stadium, Doha, Qatar",
+      "prix": 150,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/AlThumama.jpg"
+    },
+    {
+      "id": 1002,
+      "description": "Croatia vs Canada - Football World Cup - Qatar 2022",
+      "stade": "Khalifa International Stadium, Doha, Qatar",
+      "prix": 200,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/Khalifa.jpg"
+    },
+    {
+      "id": 1003,
+      "description": "Spain  vs Germany - Football World Cup - Qatar 2022",
+      "stade": "Al-Bayt Stadium , Al khor, Qatar",
+      "prix": 100,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/AhmadBenAli.jpg"
+    },
+    {
+      "id": 1004,
+      "description": "Cameroon vs Serbia - Football World Cup - Qatar 2022",
+      "stade": "Al-Janoub Stadium , Al Wakair, Qatar",
+      "prix": 120,
+      "date": "dimanche 28 novembre 2022",
+      "image": "assets/AlJanoub.jpg"
+    },
+    {
+      "id": 1005,
+      "description": "SouthKoria vs ghana - Football World Cup - Qatar 2022",
+      "stade": "Educatinal City Stadium, Doha, Qatar",
+      "prix": 200,
+      "date": "dimanche 29 novembre 2022",
+      "image": "assets/EducaCity.jpg"
+    },
+    {
+      "id": 1006,
+      "description": "Brazil vs Switzeland - Football World Cup - Qatar 2022",
+      "stade": "Stadium 974, Doha, Qatar",
+      "prix": 120,
+      "date": "dimanche 28 novembre 2022",
+      "image": "assets/974.jpg"
+    },
+    {
+      "id": 1007,
+      "description": "Portugal vs Uruguay - Football World Cup - Qatar 2022",
+      "stade": "Lusail Stadium, Lusail, Qatar",
+      "prix": 170,
+      "date": "dimanche 28 novembre 2022",
+      "image": "assets/Lusail.jpg"
+    },
+    {
+      "id": 1008,
+      "description": "Argentina vs Australia - Football World Cup - Qatar 2022",
+      "stade": "Stadium 974, Doha, Qatar",
+      "prix": 100,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/974.jpg"
+    },
+    {
+      "id": 1009,
+      "description": "USA vs Netherlands - Football World Cup - Qatar 2022",
+      "stade": "Lusail Stadium, Lusail, Qatar",
+      "prix": 150,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/Lusail.jpg"
+    },
+    {
+      "id": 1010,
+      "description": "korea Republic  vs Portugal - Football World Cup - Qatar 2022",
+      "stade": "Educatinal City Stadium, Doha, Qatar",
+      "prix": 120,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/EducaCity.jpg"
+    },
+    {
+      "id": 1011,
+      "description": "Ghana  vs Uruguay - Football World Cup - Qatar 2022",
+      "stade": "Al-Janoub Stadium , Al Wakair, Qatar",
+      "prix": 150,
+      "date": "dimanche 27 novembre 2022",
+      "image": "assets/AlJanoub.jpg"
+    },
+    {
+      "id": 1012,
+      "description": "Canada vs  Morocco - Football World Cup - Qatar 2022",
+      "stade": "Al-Thumama Stadium, Doha, Qatar",
+      "prix": 110,
+      "date": "dimanche 28 novembre 2022",
+      "image": "assets/AlThumama.jpg"
+    },
+    {
+      "id": 1013,
+      "description": "Croatia vs Belgium - Football World Cup - Qatar 2022",
+      "stade": "Ahmad Ben Ali Stadium , Al Wakair, Qatar",
+      "prix": 200,
+      "date": "dimanche 29 novembre 2022",
+      "image": "assets/AhmadBenAli.jpg"
+    },
+    {
+      "id": 1014,
+      "description": "Costa Rica vs Germany - Football World Cup - Qatar 2022",
+      "stade": "Al Bayt Stadium, Al Khor, Qatar",
+      "prix": 120,
+      "date": "dimanche 28 novembre 2022",
+      "image": "assets/AlBayt.jpg"
+    },
+    {
+      "id": 1015,
+      "description": "Japon vs Spain - Football World Cup - Qatar 2022",
+      "stade": "Khalifa International Stadium, Doha, Qatar",
+      "prix": 170,
+      "date": "dimanche 28 novembre 2022",
+      "image": "assets/Khalifa.jpg"
+    },
+    {
+      "id": 1111,
+      "description": "match :Japan vs croatia- Football World Cup - Qatar 2022",
+      "stade": "stade: Al Bayt Stadium, Al Khor, Qatar",
+      "prix": 110,
+      "date": "2022-12-18",
+      "image": "assets/AlBayt.jpg"
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "email": "hbaieb.houssem999@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "sarra.mahresia@gmail.com",
+      "password": "999999",
+      "id": 2
+    },
+    {
+      "email": "sarra.mahresia@gmail.com",
+      "password": "454554",
+      "id": 3
+    },
+    {
+      "email": "maherssiasarah@gmail.com",
+      "password": "sarra158",
+      "id": 4
+    }
+  ]
+}
